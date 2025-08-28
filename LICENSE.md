@@ -1,4 +1,5 @@
-# Druids.me Community Source-Available License v1.1 (Draft)
+# Druids.me Community Source-Available License v1.2  
+*(Draft wording — but legally effective as of publication)*
 
 **Copyright © 2025 Druids.Me (https://druids.me) and Tomek Grzechowski (https://grzechowski.com). All rights reserved.**
 
@@ -76,13 +77,14 @@ If you submit code, documentation, or other content to this repository (**“Con
 
 ## 7. Community Protection Against Scams
 
-We have seen many **scammers copying the codes of this website** and attempting to scam people out of money.  
+We have seen many **scammers copying the codes of websites** and attempting to scam people out of money. This LICENSE is prepared to protect the community against such abuse.  
+
 Such acts are a **serious violation of this License** and may be considered **fraud, copyright infringement, and criminal activity**.  
 
 The Druids.Me project has a strong and active community. Offenders should know:  
 - The community may actively report and pursue violators,  
 - These acts are punishable by law, and  
-- Legal action may be taken with full damages sought.
+- Legal action may be taken with full damages sought.  
 
 The **value of the code alone is not the measure** of this project. The true value lies in the entire community, its media, text, spirit, and identity — which this License exists to protect.
 
