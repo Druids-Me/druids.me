@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 - Draft [README.md](./README.md)
 - Draft [LICENSE.md](./LICENSE.md)
+- Draft [INSTALL.md](./INSTALL.md)
 - This file
 - `.gitignore` for project ignores
 - `eslint.config.js` for linting rules
@@ -26,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
   - `src/index.css`
 
 ### Changed
-- to be continued
+- Updated [README.md](./README.md) with project details
 
 ### Fixed
 - to be continued
