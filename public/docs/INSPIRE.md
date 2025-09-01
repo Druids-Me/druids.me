@@ -1,6 +1,6 @@
 # INSPIRE
 
-*Version 1.0.3*
+*Version 1.0.4*
 
 ## CEO
 
@@ -42,7 +42,7 @@ That is why I am proposing this project: Druids.Me (codename).
 
 ## Last but not least
 
-his presale page is playful, like other memecoins, but the final products - the membership/governance site and the authentication solution - will be serious, modernly designed and professionally branded, production-ready platforms.
+This presale page is playful, like other memecoins, but the final products - the membership/governance site and the authentication solution - will be serious, modernly designed and professionally branded, production-ready platforms.
 
 Sincerely yours,
 *Tomek Grzechowski*
