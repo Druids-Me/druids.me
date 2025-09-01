@@ -7,15 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 ### Added
-- Draft [README.md](./README.md)
-- Draft [LICENSE.md](./LICENSE.md)
-- This file
-
-### Changed
-- to be continued
-
-### Fixed
-- to be continued
+ * React version in place of static version
+ * md/TITLE reading of md docs from public/docs/TITLE.md
+ * removed old static codes but kept doc md files
 
 ---
 

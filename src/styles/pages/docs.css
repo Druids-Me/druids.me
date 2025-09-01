@@ -1,0 +1,15 @@
+/* src/styles/docs.module.css */
+.docs {
+  font-family: system-ui, sans-serif;
+  background: white;
+  line-height: 1.6;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.docs :global(h1) { font-size: 2rem; margin: 0 0 1rem; }
+.docs :global(h2) { font-size: 1.5rem; margin: 2rem 0 .75rem; }
+.docs :global(p), .docs :global(li) { font-size: 1rem; }
+.docs :global(a) { text-decoration: underline; }
+.docs :global(code) { background:#f6f7f8; padding:.1rem .3rem; border-radius:.25rem; }
+.docs :global(pre) { background:#0b1020;color:#e7eaf3;padding:1rem;border-radius:.5rem;overflow:auto; }

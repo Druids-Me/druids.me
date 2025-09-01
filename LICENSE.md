@@ -1,9 +1,9 @@
-# Druids.me Community Source-Available License v1.2  
-*(Draft wording — but legally effective as of publication)*
+# Druids.Me Community Source-Available License v1.2
 
 **Copyright © 2025 Druids.Me (https://druids.me) and Tomek Grzechowski (https://grzechowski.com). All rights reserved.**
 
-> This Software is made publicly available so that the community can learn from it, discuss it, and contribute improvements. It is **not** open source under the OSI definition, and **no rights are granted** except as expressly stated below.
+> This Software is made publicly available so that the community can learn from it, discuss it, and contribute improvements. 
+> It is **not** open source under the OSI definition, and **no rights are granted** except as expressly stated below.
 
 ---
 
@@ -72,7 +72,6 @@ If you submit code, documentation, or other content to this repository (**“Con
 
 (c) by submitting a commit, pull request, or other Contribution, you **irrevocably assign and transfer** to the Licensor (Druids.Me and Tomek Grzechowski) all worldwide right, title, and interest, including all copyrights, in and to your Contributions. You retain no ownership rights, and the Licensor will be the sole owner of such Contributions.  
 
-
 ---
 
 ## 7. Community Protection Against Scams
@@ -108,7 +107,8 @@ THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES 
 
 ## 10. Governing Law; Venue
 
-This License is governed by the laws of **[choose jurisdiction]**, without regard to conflict-of-law rules. The exclusive venue for any dispute relating to this License or the Software will be the courts located in **[choose city, jurisdiction]**, and you consent to personal jurisdiction there.
+This License is governed by the laws of **Poland**, without regard to conflict-of-law rules. 
+The exclusive venue for any dispute relating to this License or the Software will be the courts located in **Warsaw, Poland**, and you consent to personal jurisdiction there.
 
 ---
 
