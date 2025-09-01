@@ -1,7 +1,78 @@
+import { useEffect, useState } from "react"
 import "../styles/pages/home.css"
 
+import { Link, NavLink } from "react-router-dom"
+
 export default function Home() {
-  return (
+const [menuOpen, setMenuOpen] = useState(false)
+
+// zamykanie ESC
+useEffect(() => {
+  const onKey = (e) => e.key === "Escape" && setMenuOpen(false)
+  window.addEventListener("keydown", onKey)
+  return () => window.removeEventListener("keydown", onKey)
+}, [])
+
+useEffect(() => {
+  document.body.classList.toggle('body-lock', menuOpen)
+  return () => document.body.classList.remove('body-lock')
+}, [menuOpen])
+
+const closeOnNav = () => setMenuOpen(false)
+
+return (
+  <>
+    {/* NAV */}
+    <nav className="site-nav" role="navigation" aria-label="Główne">
+      <a href="#" className="nav-brand" aria-label="Strona główna">
+        <span className="brand-mark">🌱</span>
+        <span>DRUIDS ME</span>
+      </a>
+
+      {/* Desktop */}
+      <ul className="nav-menu" aria-label="Menu desktop">
+        <li><Link to="/md/INSPIRE" onClick={closeOnNav}>Inspire</Link></li>
+        {/*<li><a href="#tokenomics">Tokenomics</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#contact">Kontakt</a></li>*/}
+      </ul>
+
+      {/* Mobile toggle */}
+      <button
+        className="nav-toggle"
+        aria-label="Otwórz menu"
+        aria-expanded={menuOpen}
+        aria-controls="mobile-menu"
+        onClick={() => setMenuOpen(v => !v)}
+      >
+        {/* ikona hamburger / close */}
+        <svg className="icon-burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        </svg>
+        <svg className="icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+        </svg>
+      </button>
+
+      {/* Mobile drawer */}
+      <div
+        id="mobile-menu"
+        className="mobile-menu"
+        data-open={menuOpen ? "true" : "false"}
+        onClick={closeOnNav}
+      >
+        <div>
+          <ul role="menu" onClick={(e) => e.stopPropagation()}>
+            <li role="none"><Link role="menuitem" to="/md/INSPIRE" onClick={closeOnNav}>Inspire</Link></li>
+            {/*<li role="none"><a role="menuitem" href="#tokenomics" onClick={closeOnNav}>Tokenomics</a></li>
+            <li role="none"><a role="menuitem" href="#roadmap" onClick={closeOnNav}>Roadmap</a></li>
+            <li role="none"><a role="menuitem" href="#contact" onClick={closeOnNav}>Kontakt</a></li>*/}
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    {/* CONTENT */}
     <main className="wrap" role="main">
       <header>
         <div className="badge" aria-label="Codename">
@@ -34,8 +105,7 @@ export default function Home() {
           </a>
         </div>
       </footer>
-
-      
     </main>
-  )
+  </>
+)
 }
