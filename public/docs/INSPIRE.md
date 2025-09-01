@@ -1,5 +1,7 @@
 # INSPIRE
 
+*Version 1.0.3*
+
 ## CEO
 
 Hi, my name is **Tomek Grzechowski**.
@@ -40,7 +42,7 @@ That is why I am proposing this project: Druids.Me (codename).
 
 ## Last but not least
 
-I have designed this presale page to be still fun like other memcoins but please understand that final product will be a mature production.
+his presale page is playful, like other memecoins, but the final products - the membership/governance site and the authentication solution - will be serious, modernly designed and professionally branded, production-ready platforms.
 
 Sincerely yours,
 *Tomek Grzechowski*
