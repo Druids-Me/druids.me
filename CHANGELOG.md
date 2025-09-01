@@ -7,30 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 ### Added
-- Draft [README.md](./README.md)
-- Draft [LICENSE.md](./LICENSE.md)
-- Draft [INSTALL.md](./INSTALL.md)
-- This file
-- `.gitignore` for project ignores
-- `eslint.config.js` for linting rules
-- `index.html` entry point
-- `package.json` and `package-lock.json` for dependencies
-- `vite.config.js.docker` and `vite.config.js.prod` for environment-specific builds
-- Static assets:
-  - `public/acorn.png`
-  - `src/assets/react.svg`
-- React app structure:
-  - `src/App.jsx`
-  - `src/main.jsx`
-  - `src/HomePage.jsx`
-  - `src/HomePage.css`
-  - `src/index.css`
-
-### Changed
-- Updated [README.md](./README.md) with project details
-
-### Fixed
-- to be continued
+ * React version in place of static version
+ * md/TITLE reading of md docs from public/docs/TITLE.md
+ * removed old static codes but kept doc md files
 
 ---
 

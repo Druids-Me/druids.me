@@ -1,7 +1,6 @@
-// src/HomePage.jsx
-import './HomePage.css'
+import "../styles/pages/home.css"
 
-export default function HomePage() {
+export default function Home() {
   return (
     <main className="wrap" role="main">
       <header>
